@@ -1,0 +1,82 @@
+.__banner {
+  background-image: url("../img/photo-of-person-wearing-headphones-3916376.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.carousel-inner img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.__playlist {
+  background: rgb(93, 63, 251);
+  background: radial-gradient(
+    circle,
+    rgba(93, 63, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+
+.__flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  /* justify-content: center; */
+}
+
+.__flex h6 {
+  margin-bottom: 0;
+  margin-left: 10px;
+  color: rgba(93, 63, 251, 1);
+}
+
+.__flex i {
+  font-size: 20px;
+  color: rgba(93, 63, 251, 1);
+}
+
+._streams {
+  position: absolute;
+}
+
+._streams.a,
+._streams.b,
+._streams.c {
+  padding: 20px;
+  border-radius: 12px;
+  /* width: 150px */
+  text-align: center;
+  color: white;
+}
+
+._streams.a {
+  margin-left: -30px;
+  margin-top: -25px;
+  background: orange;
+  color: white;
+}
+
+._streams.b {
+  right: -30px;
+  margin-top: 50%;
+  background: purple;
+  color: white;
+}
+
+._streams.c {
+  left: -30px;
+  top: 200px;
+  background: gold;
+  color: white;
+}
+
+._streams h3 {
+  margin: 0;
+}
